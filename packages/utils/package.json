@@ -1,0 +1,21 @@
+{
+  "name": "@yq-cli-dev/utils",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "闫强 <yanqiang@spap.com>",
+  "homepage": "yq-cli-dev utils",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\""
+  },
+  "dependencies": {
+  }
+}
