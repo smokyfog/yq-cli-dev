@@ -1,6 +1,6 @@
 {
   "name": "@yq-cli-dev/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "闫强 <yanqiang@spap.com>",
   "homepage": "yq-cli-dev utils",
@@ -15,7 +15,5 @@
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\""
-  },
-  "dependencies": {
   }
 }
