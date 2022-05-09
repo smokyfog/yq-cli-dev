@@ -18,5 +18,6 @@
   },
   "dependencies": {
     "@yq-cli-dev/utils": "^1.0.1"
-  }
+  },
+  "gitHead": "663952088e2b716dc02598fceef79d46e96203c9"
 }
