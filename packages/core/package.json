@@ -1,6 +1,6 @@
 {
   "name": "@yq-cli-dev/core",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "yq-cli-dev core",
   "author": "闫强 <yanqiang@spap.com>",
   "homepage": "",
@@ -22,5 +22,5 @@
   "dependencies": {
     "@yq-cli-dev/utils": "^1.0.3"
   },
-  "gitHead": "400496549331d5458956d2c47008247552eedf4e"
+  "gitHead": "4afd182c580b9ab2f03339f9fe9d6c88dfcf6a8e"
 }
