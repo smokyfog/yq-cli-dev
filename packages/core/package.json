@@ -6,6 +6,9 @@
   "homepage": "",
   "license": "ISC",
   "main": "lib/core.js",
+  "bin": {
+    "yq-cli-dev": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -19,5 +22,5 @@
   "dependencies": {
     "@yq-cli-dev/utils": "^1.0.2"
   },
-  "gitHead": "663952088e2b716dc02598fceef79d46e96203c9"
+  "gitHead": "400496549331d5458956d2c47008247552eedf4e"
 }
