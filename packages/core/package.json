@@ -1,6 +1,6 @@
 {
   "name": "@yq-cli-dev/core",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "yq-cli-dev core",
   "author": "闫强 <yanqiang@spap.com>",
   "homepage": "",
@@ -20,10 +20,10 @@
     "test": "echo \"Error: run tests from root\""
   },
   "dependencies": {
-    "@yq-cli-dev/utils": "^1.0.3"
+    "@yq-cli-dev/utils": "^1.0.4"
   },
   "gitHead": "4afd182c580b9ab2f03339f9fe9d6c88dfcf6a8e",
   "publishConfig": {
-    "access":"public"
+    "access": "public"
   }
 }
