@@ -1,0 +1,43 @@
+{
+  "name": "@yq-cli-dev/core",
+  "version": "1.0.4",
+  "description": "yq-cli-dev core",
+  "author": "闫强 <yanqiang@spap.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "bin": {
+    "yq-cli-dev": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\""
+  },
+  "dependencies": {
+    "@yq-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
+    "@yq-cli-dev/log": "file:../../utils/log",
+    "@yq-cli-dev/utils": "file:../../utils/utils",
+    "@yq-cli-dev/init": "file:../../commands/init",
+    "@yq-cli-dev/exec": "file:../exec",
+    "minimist": "^1.2.6",
+    "colors": "^1.4.0",
+    "commander": "^6.2.1",
+    "dotenv": "^8.2.0",
+    "import-local": "^3.0.2",
+    "npmlog": "^4.1.2",
+    "path-exists": "^4.0.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.4",
+    "user-home": "^2.0.0"
+  },
+  "gitHead": "4afd182c580b9ab2f03339f9fe9d6c88dfcf6a8e",
+  "publishConfig": {
+    "access": "public"
+  }
+}
