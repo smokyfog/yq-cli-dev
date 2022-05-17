@@ -16,6 +16,9 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\""
   },
+  "dependencies": {
+    "cli-spinner": "^0.2.10"
+  },
   "gitHead": "4afd182c580b9ab2f03339f9fe9d6c88dfcf6a8e",
   "publishConfig": {
     "access": "public"

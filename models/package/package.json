@@ -1,7 +1,7 @@
 {
-  "name": "@yq-cli-dev/init",
+  "name": "@yq-cli-dev/package",
   "version": "1.0.0",
-  "description": "yq-cli-dev init",
+  "description": "yq-cli-dev package",
   "author": "闫强 <yanqiang@spap.com>",
   "homepage": "https://github.com/smokyfog/yq-cli-dev#readme",
   "license": "ISC",
@@ -24,18 +24,13 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@yq-cli-dev/command": "file:../../models/command",
-    "@yq-cli-dev/log": "file:../../utils/log",
-    "@yq-cli-dev/package": "file:../../models/package",
+    "@yq-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
     "@yq-cli-dev/utils": "file:../../utils/utils",
-    "ejs": "^3.1.5",
+    "@yq-cli-dev/format-path": "file:../../utils/format-path",
     "fs-extra": "^9.0.1",
-    "glob": "^7.1.6",
-    "inquirer": "^7.3.3",
-    "kebab-case": "^1.0.0",
-    "semver": "^7.3.4",
-    "spinner": "^0.3.4",
-    "user-home": "^2.0.0"
+    "npminstall": "^4.10.0",
+    "path-exists": "^4.0.0",
+    "pkg-dir": "^5.0.0"
   },
   "bugs": {
     "url": "https://github.com/smokyfog/yq-cli-dev/issues"

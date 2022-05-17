@@ -21,10 +21,13 @@ const program = new commander.Command();
 async function core() {
   try {
     await await prepare();
-    chheckNodeVersion();
+    // chheckNodeVersion();
     registerCommand();
   } catch (err) {
     log.error(err.message);
+    if (program.debug) {
+      console.log(e);
+    }
   }
 }
 
@@ -49,7 +52,7 @@ function registerCommand() {
   program
     .command("init [projectName]")
     .option("-f, --force", "是否强制初始化项目")
-    .action(init);
+    .action(exec);
 
   // program
   //   .command("publish")
