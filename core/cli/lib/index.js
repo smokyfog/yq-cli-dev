@@ -165,6 +165,7 @@ function checkArgs() {
 function checkEnv() {
   const dotenv = require("dotenv");
   const dotenvPath = path.resolve(userHome, ".env");
+  console.log("dotenvPath", dotenvPath);
   if (pathExists(dotenvPath)) {
     dotenv.config({
       path: dotenvPath,

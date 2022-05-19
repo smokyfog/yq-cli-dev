@@ -1,7 +1,7 @@
-const request = require('@imooc-cli-dev/request');
+const request = require("@yq-cli-dev/request");
 
-module.exports = function() {
+module.exports = function () {
   return request({
-    url: '/project/template',
+    url: "/project/template",
   });
 };

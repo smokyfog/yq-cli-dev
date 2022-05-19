@@ -61,6 +61,7 @@ class Package {
   async exists() {
     if (this.storeDir) {
       await this.prepare();
+      console.log("cacheFilePath", this.cacheFilePath);
       return pathExists(this.cacheFilePath);
     } else {
       return pathExists(this.targetPath);

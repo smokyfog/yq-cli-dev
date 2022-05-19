@@ -41,7 +41,7 @@ class Command {
     const lowestVersion = LOWEST_NODE_VERSION;
     if (!semver.gte(currentVersion, lowestVersion)) {
       throw new Error(
-        colors.red(`imooc-cli 需要安装 v${lowestVersion} 以上版本的 Node.js`)
+        colors.red(`yq-cli 需要安装 v${lowestVersion} 以上版本的 Node.js`)
       );
     }
   }

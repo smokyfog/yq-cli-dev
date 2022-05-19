@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>imooc datav libs example</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@3.0.0/dist/vue.global.js"></script>
+  <script src="../dist/test-project.umd.js"></script>
+  <link href="../dist/test-project.css" type="text/css">
+</head>
+<body>
+<div id="app">
+  <final-page :components="testData.components"></final-page>
+</div>
+<script>
+  Vue.createApp({
+    setup() {
+      // 使用 finalPage 组件进行渲染，使用我们预定义好的数据结构
+      const testData = {
+        // 页面上面一个个组件的属性
+        components: [
+          { id: '123', name: 'l-text', props: { text: 'hello', top: '0', left: '20px' } },
+          {
+            id: '234',
+            name: 'l-image',
+            props: {
+              imageSrc: 'http://vue-maker.oss-cn-hangzhou.aliyuncs.com/vue-marker/5f6338e666336111f73d220c.png',
+              top: '30px',
+              left: '20px',
+            },
+          },
+          {
+            id: '235',
+            name: 'l-shape',
+            props: { backgroundColor: 'red', top: '50px', left: '20px', width: '100px', height: '100px' },
+          },
+        ],
+      };
+      return {
+        testData,
+      };
+    },
+  })
+    .use(window['test-project'])
+    .mount('#app');
+</script>
+</body>
+</html>

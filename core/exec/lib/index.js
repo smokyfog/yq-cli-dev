@@ -6,7 +6,7 @@ const log = require("@yq-cli-dev/log");
 const { exec: spawn } = require("@yq-cli-dev/utils");
 
 const SETTINGS = {
-  init: "@imooc-cli/init",
+  init: "@yq-cli/init",
   publish: "@yq-cli/publish",
 };
 
