@@ -1,6 +1,6 @@
 {
   "name": "@yq-cli-dev/package",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "yq-cli-dev package",
   "author": "闫强 <yanqiang@spap.com>",
   "homepage": "https://github.com/smokyfog/yq-cli-dev#readme",
@@ -24,9 +24,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@yq-cli-dev/format-path": "^1.0.5",
-    "@yq-cli-dev/get-npm-info": "^1.0.5",
-    "@yq-cli-dev/utils": "^1.0.5",
+    "@yq-cli-dev/format-path": "^1.0.6",
+    "@yq-cli-dev/get-npm-info": "^1.0.6",
+    "@yq-cli-dev/utils": "^1.0.6",
     "fs-extra": "^9.0.1",
     "npminstall": "^4.10.0",
     "path-exists": "^4.0.0",
