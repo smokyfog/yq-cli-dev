@@ -1,6 +1,6 @@
 {
   "name": "@yq-cli-dev/command",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "yq-cli-dev command",
   "author": "闫强 <yanqiang@spap.com>",
   "homepage": "https://github.com/smokyfog/yq-cli-dev#readme",
@@ -24,7 +24,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@yq-cli-dev/log": "^1.0.6",
+    "@yq-cli-dev/log": "^1.0.7",
     "colors": "^1.4.0",
     "semver": "^7.3.4"
   },

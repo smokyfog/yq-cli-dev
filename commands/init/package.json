@@ -1,6 +1,6 @@
 {
   "name": "@yq-cli-dev/init",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "yq-cli-dev init",
   "author": "闫强 <yanqiang@spap.com>",
   "homepage": "https://github.com/smokyfog/yq-cli-dev#readme",
@@ -24,11 +24,11 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@yq-cli-dev/command": "^1.0.6",
-    "@yq-cli-dev/log": "^1.0.6",
-    "@yq-cli-dev/package": "^1.0.6",
-    "@yq-cli-dev/request": "^1.0.6",
-    "@yq-cli-dev/utils": "^1.0.6",
+    "@yq-cli-dev/command": "^1.0.7",
+    "@yq-cli-dev/log": "^1.0.7",
+    "@yq-cli-dev/package": "^1.0.7",
+    "@yq-cli-dev/request": "^1.0.7",
+    "@yq-cli-dev/utils": "^1.0.7",
     "ejs": "^3.1.5",
     "fs-extra": "^9.0.1",
     "glob": "^7.1.6",

@@ -1,6 +1,6 @@
 {
   "name": "@yq-cli-dev/core",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "yq-cli-dev core",
   "author": "闫强 <yanqiang@spap.com>",
   "homepage": "",
@@ -20,11 +20,11 @@
     "test": "echo \"Error: run tests from root\""
   },
   "dependencies": {
-    "@yq-cli-dev/exec": "^1.0.6",
-    "@yq-cli-dev/get-npm-info": "^1.0.6",
-    "@yq-cli-dev/init": "^1.0.6",
-    "@yq-cli-dev/log": "^1.0.6",
-    "@yq-cli-dev/utils": "^1.0.6",
+    "@yq-cli-dev/exec": "^1.0.7",
+    "@yq-cli-dev/get-npm-info": "^1.0.7",
+    "@yq-cli-dev/init": "^1.0.7",
+    "@yq-cli-dev/log": "^1.0.7",
+    "@yq-cli-dev/utils": "^1.0.7",
     "colors": "^1.4.0",
     "commander": "^6.2.1",
     "dotenv": "^8.2.0",
