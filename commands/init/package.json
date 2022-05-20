@@ -24,11 +24,11 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@yq-cli-dev/command": "file:../../models/command",
-    "@yq-cli-dev/log": "file:../../utils/log",
-    "@yq-cli-dev/package": "file:../../models/package",
-    "@yq-cli-dev/request": "file:../../utils/request",
-    "@yq-cli-dev/utils": "file:../../utils/utils",
+    "@yq-cli-dev/command": "^1.0.5",
+    "@yq-cli-dev/log": "^1.0.5",
+    "@yq-cli-dev/package": "^1.0.5",
+    "@yq-cli-dev/request": "^1.0.5",
+    "@yq-cli-dev/utils": "^1.0.5",
     "ejs": "^3.1.5",
     "fs-extra": "^9.0.1",
     "glob": "^7.1.6",
@@ -40,5 +40,6 @@
   },
   "bugs": {
     "url": "https://github.com/smokyfog/yq-cli-dev/issues"
-  }
+  },
+  "gitHead": "10c08260c2f0b62c3b060d4dc8500bf2e7e8f0f4"
 }

@@ -20,11 +20,11 @@
     "test": "echo \"Error: run tests from root\""
   },
   "dependencies": {
-    "@yq-cli-dev/exec": "file:../exec",
-    "@yq-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
-    "@yq-cli-dev/init": "file:../../commands/init",
-    "@yq-cli-dev/log": "file:../../utils/log",
-    "@yq-cli-dev/utils": "file:../../utils/utils",
+    "@yq-cli-dev/exec": "^1.0.5",
+    "@yq-cli-dev/get-npm-info": "^1.0.5",
+    "@yq-cli-dev/init": "^1.0.5",
+    "@yq-cli-dev/log": "^1.0.5",
+    "@yq-cli-dev/utils": "^1.0.5",
     "colors": "^1.4.0",
     "commander": "^6.2.1",
     "dotenv": "^8.2.0",
@@ -36,7 +36,7 @@
     "semver": "^7.3.4",
     "user-home": "^2.0.0"
   },
-  "gitHead": "4afd182c580b9ab2f03339f9fe9d6c88dfcf6a8e",
+  "gitHead": "10c08260c2f0b62c3b060d4dc8500bf2e7e8f0f4",
   "publishConfig": {
     "access": "public"
   }

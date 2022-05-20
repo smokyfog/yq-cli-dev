@@ -24,11 +24,12 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@yq-cli-dev/log": "file:../../utils/log",
-    "@yq-cli-dev/package": "file:../../models/package",
-    "@yq-cli-dev/utils": "file:../../utils/utils"
+    "@yq-cli-dev/log": "^1.0.5",
+    "@yq-cli-dev/package": "^1.0.5",
+    "@yq-cli-dev/utils": "^1.0.5"
   },
   "bugs": {
     "url": "https://github.com/smokyfog/yq-cli-dev/issues"
-  }
+  },
+  "gitHead": "10c08260c2f0b62c3b060d4dc8500bf2e7e8f0f4"
 }
