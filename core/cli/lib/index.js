@@ -127,18 +127,18 @@ function checkUserHome() {
   }
 }
 
-function chheckNodeVersion() {
-  // 第一步： 获取当前Node版本号
-  const currentersion = process.version;
-  const lowestVersion = constant.LOWEST_NODE_VERSION;
-  log.info("node version", currentersion);
-  // 第二步： 对比最低版本号
-  if (!semver.gte(currentersion, lowestVersion)) {
-    throw new Error(
-      colors.red(`yq-cli-dev 需要安装 v${lowestVersion} 以上版本的 Node.js`)
-    );
-  }
-}
+// function chheckNodeVersion() {
+//   // 第一步： 获取当前Node版本号
+//   const currentersion = process.version;
+//   const lowestVersion = constant.LOWEST_NODE_VERSION;
+//   log.info("node version", currentersion);
+//   // 第二步： 对比最低版本号
+//   if (!semver.gte(currentersion, lowestVersion)) {
+//     throw new Error(
+//       colors.red(`yq-cli-dev 需要安装 v${lowestVersion} 以上版本的 Node.js`)
+//     );
+//   }
+// }
 
 // 检验当前版本
 function checkPkgVersion() {
